@@ -40,7 +40,7 @@ def dtw(x, y):
     """Replacement for mlpy.dtwcore.dtw (mlpy is not available for Python 3).
 
     Returns (distance, path_x, path_y, cost) like mlpy did, using the DTW of the
-    dmf package (Morante-tech/dissimilarity-mapping-filtering).
+    dmf package (Morante-robotics/dissimilarity-mapping-filtering).
     """
     dist, cost, (px, py) = dmf_dtw(x, y, return_path=True)
     return dist, px, py, cost

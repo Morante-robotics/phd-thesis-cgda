@@ -2,7 +2,7 @@
 
 Work related to my master's thesis on object-object centered actions. The master's
 thesis and its slides are attached to the
-[v1.0-tesis release](https://github.com/Morante-tech/phd-thesis-cgda/releases/tag/v1.0-tesis).
+[v1.0-tesis release](https://github.com/Morante-robotics/phd-thesis-cgda/releases/tag/v1.0-tesis).
 
 This research led to the development of the Robot Imagination System by Juan G. Victores
 (the repository `jgvictores/robot-imagination-system` that was linked here is no longer available).
