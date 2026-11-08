@@ -12,7 +12,7 @@ reproduce those effects.
 
 > **Research archive.** This repository is kept for reference and is no longer developed.
 > The thesis, the defense slides and the conference slides are attached to the
-> [v1.0-tesis release](https://github.com/Morante-tech/phd-thesis-cgda/releases/tag/v1.0-tesis).
+> [v1.0-tesis release](https://github.com/Morante-robotics/phd-thesis-cgda/releases/tag/v1.0-tesis).
 > The defense video is on [Dailymotion](http://www.dailymotion.com/video/x3w7qw0_defensa-tesis-doctoral-uc3m-santiago-morante_tech).
 
 ## Contents and publications
@@ -31,7 +31,7 @@ reproduce those effects.
 
 The Python scripts were ported from Python 2 to Python 3 in 2026. `mlpy` and the old
 `dtw` library no longer exist, so Dynamic Time Warping now comes from
-[dissimilarity-mapping-filtering](https://github.com/Morante-tech/dissimilarity-mapping-filtering).
+[dissimilarity-mapping-filtering](https://github.com/Morante-robotics/dissimilarity-mapping-filtering).
 The C++ code (YARP, OpenRAVE) was not updated and documents how the experiments were run.
 
 ```bash
@@ -51,8 +51,8 @@ pip install -r requirements.txt
 
 ## Related repositories and removed files
 
-* The demonstration and feature selection algorithm (`demonstration-feature-selection/`) is also maintained as a standalone project in [dissimilarity-mapping-filtering](https://github.com/Morante-tech/dissimilarity-mapping-filtering).
-* The thesis, the defense slides, the master's thesis and the conference slides are attached to the [v1.0-tesis release](https://github.com/Morante-tech/phd-thesis-cgda/releases/tag/v1.0-tesis).
+* The demonstration and feature selection algorithm (`demonstration-feature-selection/`) is also maintained as a standalone project in [dissimilarity-mapping-filtering](https://github.com/Morante-robotics/dissimilarity-mapping-filtering).
+* The thesis, the defense slides, the master's thesis and the conference slides are attached to the [v1.0-tesis release](https://github.com/Morante-robotics/phd-thesis-cgda/releases/tag/v1.0-tesis).
 * The 3D models of the TEO humanoid robot used by `real-cgda/` were removed from this repository; they are published by the Robotics Lab in [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models).
 * Raw videos and trained network weights were removed from the history to keep the repository small.
 
